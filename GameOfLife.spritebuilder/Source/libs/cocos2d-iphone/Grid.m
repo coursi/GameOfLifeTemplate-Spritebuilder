@@ -144,11 +144,11 @@ static const int GRID_COLUMNS = 10;
             _gridArray[i][j] = creature;
             
             x+=_cellWidth;
-        }
+    }
         
         y += _cellHeight;
     }
-      }
+}
 
     - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event
     {
