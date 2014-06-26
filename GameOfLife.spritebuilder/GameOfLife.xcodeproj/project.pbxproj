@@ -36,6 +36,8 @@
 		B77F1B3E17B978D7009739AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B3D17B978D7009739AE /* Foundation.framework */; };
 		B77F1B4017B978D7009739AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B3F17B978D7009739AE /* CoreGraphics.framework */; };
 		B77F1B4217B978D7009739AE /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B4117B978D7009739AE /* CoreText.framework */; };
+		D76D7264195C832800FEF3AA /* Penguin.m in Sources */ = {isa = PBXBuildFile; fileRef = D76D7263195C832800FEF3AA /* Penguin.m */; };
+		D76D7268195C833600FEF3AA /* Seal.m in Sources */ = {isa = PBXBuildFile; fileRef = D76D7267195C833600FEF3AA /* Seal.m */; };
 		D7FED3D5195A4E0D0000579E /* Grid.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FED3D4195A4E0D0000579E /* Grid.m */; };
 		D7FED3D9195A4E370000579E /* Creature.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FED3D8195A4E370000579E /* Creature.m */; };
 /* End PBXBuildFile section */
@@ -92,6 +94,10 @@
 		B77F1B3F17B978D7009739AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		B77F1B4117B978D7009739AE /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		B7B3713D180358F1007369CC /* libObjectiveChipmunk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libObjectiveChipmunk.a; path = "../libs/cocos2d-iphone/external/Chipmunk/xcode/build/Debug-iphoneos/libObjectiveChipmunk.a"; sourceTree = "<group>"; };
+		D76D7262195C832800FEF3AA /* Penguin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Penguin.h; sourceTree = "<group>"; };
+		D76D7263195C832800FEF3AA /* Penguin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Penguin.m; sourceTree = "<group>"; };
+		D76D7266195C833600FEF3AA /* Seal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Seal.h; sourceTree = "<group>"; };
+		D76D7267195C833600FEF3AA /* Seal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Seal.m; sourceTree = "<group>"; };
 		D7FED3D3195A4E0D0000579E /* Grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Grid.h; path = "Source/libs/cocos2d-iphone/Grid.h"; sourceTree = "<group>"; };
 		D7FED3D4195A4E0D0000579E /* Grid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Grid.m; path = "Source/libs/cocos2d-iphone/Grid.m"; sourceTree = "<group>"; };
 		D7FED3D7195A4E370000579E /* Creature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Creature.h; path = Source/Creature.h; sourceTree = "<group>"; };
@@ -139,6 +145,10 @@
 				B7378993180767190076A88C /* MainScene.m */,
 				D7FED3D3195A4E0D0000579E /* Grid.h */,
 				D7FED3D4195A4E0D0000579E /* Grid.m */,
+				D76D7262195C832800FEF3AA /* Penguin.h */,
+				D76D7263195C832800FEF3AA /* Penguin.m */,
+				D76D7266195C833600FEF3AA /* Seal.h */,
+				D76D7267195C833600FEF3AA /* Seal.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -350,10 +360,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D76D7264195C832800FEF3AA /* Penguin.m in Sources */,
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
 				B7378994180767190076A88C /* MainScene.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
 				D7FED3D5195A4E0D0000579E /* Grid.m in Sources */,
+				D76D7268195C833600FEF3AA /* Seal.m in Sources */,
 				D7FED3D9195A4E370000579E /* Creature.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
